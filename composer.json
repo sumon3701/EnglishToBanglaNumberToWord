@@ -1,15 +1,21 @@
 {
-	"name": "sumon/englishtobanglanumbertoword",
-    "description": "English number convert to bangla number and word",
-    "keywords": ["number", "conversion"],
-    "license": "MIT",
+    "name": "sumon/english-to-bangla-number-to-word",
+    "description": "english number convrt to bangla number and word\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dert to bangla number and word",
     "type": "package",
-    "require": {
-        "php": ">=5.6.4",
-    },
-	"autoload":{
-		"psr-4": {
-            "EnglishToBanglaNumberToWord\\": "src/"
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sumon\\EnglishToBanglaNumberToWord\\": "src/"
         }
-	}
+    },
+    "authors": [
+        {
+            "name": "sumon3701",
+            "email": "78041952+sumon3701@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
 }
