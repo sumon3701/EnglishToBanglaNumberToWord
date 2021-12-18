@@ -1,7 +1,15 @@
 {
+	"name": "sumon/englishtobanglanumbertoword",
+    "description": "English number convert to bangla number and word",
+    "keywords": ["number", "conversion"],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "php": ">=5.6.4",
+    },
 	"autoload":{
-		"classmap":{
-			"src"
-		}
+		"psr-4": {
+            "EnglishToBanglaNumberToWord\\": "src/"
+        }
 	}
 }
