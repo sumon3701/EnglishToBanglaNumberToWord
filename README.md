@@ -1,25 +1,36 @@
 # EnglishToBanglaNumberToWord
 
-It is use to English number convert to bangla number and Bangla word
+It is use to English number convert to bangla number and Bangla word.
 
-Requirements
+## Requirements
+
 PHP version 7.1 or higher
 
-Easy Installation
-Install with composer
+## Easy Installation
+
+## Install with composer
+
 To install with Composer, simply require the latest version of this package.
+
+```bash
 composer require sumon/english-to-bangla-number-to-word
+```
 
-Use
+## Usage
 
-//namespace
+```php
+#namespace
 use BNConverter\EnglishToBanglaNumberToWord;
 
 $convert = new EnglishToBanglaNumberToWord;
+# In Bangla Word
+$convert->numberToWord(100.50);
 
-// In Bangla Word
-$convert->numberToWord(23423456.78);
+# একশত দশমিক পাচঁ শূন্য
 
-// in Bangla number
-$convert->englishToBangla(23423456.78);
+# In Bangla number
+$convert->englishToBangla(100.50);
+
+# ১০০.৫০
+```
 
